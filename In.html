@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<script>
+function add(){
+var a,b,c;
+a=parseInt(document.getElementById("first").value);
+b=Number(document.getElementById("second").value);
+c= a + b;
+document.getElementById("answer").value= c;
+}
+function sub(){
+var a,b,c;
+a=Number(document.getElementById("first").value);
+b=Number(document.getElementById("second").value);
+c= a - b;
+document.getElementById("answer").value= c;
+}
+function mul(){
+var a,b,c;
+a=Number(document.getElementById("first").value);
+b=Number(document.getElementById("second").value);
+c= a * b;
+document.getElementById("answer").value= c;
+}
+function div(){
+var a,b,c;
+a=Number(document.getElementById("first").value);
+b=Number(document.getElementById("second").value);
+c= a / b;
+document.getElementById("answer").value= c;
+}
+
+</script>
+</head>
+<body>
+Enter the First number : <input id="first">
+Enter the Second number: <input id="second">
+<br>
+<br>
+<button onclick="add()">ADD</button>
+<button onclick="sub()">SUB</button>
+<button onclick="mul()">MUL</button>
+<button onclick="div()">DIV</button>
+<input id="answer">
+</body>
+</html>

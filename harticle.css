@@ -1,0 +1,40 @@
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+.boxed {
+  border: 1px solid green ;
+}
+#p1{
+	margin left: 100px;
+
+}
+.info {
+  display: table-caption;
+  caption-side: bottom;
+  padding: 20px;
+  margin-left:100px;
+}
+.wrapper {
+	display:table;
+}
+.hin {
+	padding: 10px;
+}
+#img1 {
+	border-radius: 50%;
+
+}
+h1 {
+  font-family: "Times New Roman", Times, serif;
+  padding: 10px;
+}
